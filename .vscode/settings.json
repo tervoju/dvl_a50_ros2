@@ -1,0 +1,14 @@
+{
+    "ros.distro": "foxy",
+    "python.autoComplete.extraPaths": [
+        "/home/jte/ros2_ws/install/dvl_interface/lib/python3.8/site-packages",
+        "/home/jte/ros2_ws/install/dvl_beam_interface/lib/python3.8/site-packages",
+        "/home/jte/ros2_foxy/ros2-linux/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jte/ros2_ws/install/dvl_interface/lib/python3.8/site-packages",
+        "/home/jte/ros2_ws/install/dvl_beam_interface/lib/python3.8/site-packages",
+        "/home/jte/ros2_foxy/ros2-linux/lib/python3.8/site-packages"
+    ],
+    "cmake.configureOnOpen": false
+}
