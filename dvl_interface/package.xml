@@ -3,7 +3,7 @@
 <package format="3">
   <name>dvl_interface</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>DVL a50 interface for dvl messages</description>
   <maintainer email="jutervo@outlook.com">jte</maintainer>
   <license>MIT</license>
 

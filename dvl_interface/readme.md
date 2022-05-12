@@ -34,7 +34,7 @@ show dvl interface
 `colcon build --packages-select sim_dvl_a50`
 `colcon build --packages-select dvl_a50`
 
-# source the setup files (path must be dev  root)
+# source the setup files (path must be dev  root), this has be done before custom made packages are visible
 `. install/setup.bash`
 
 `ros2 run py_pubsub talker`
@@ -51,6 +51,15 @@ sys.path.append("/home/jte/ros2_ws/trial_2/build/install/sim_dvl_a50/lib/python3
 from sim_dvl_a50.dvl import dvl_data
 ```
 
+requires also
+
+c++
+
+sudo apt install build-essential 
+
+OpenSSL
+
+sudo apt-get install libssl-dev
 
 
 

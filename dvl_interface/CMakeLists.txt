@@ -19,6 +19,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DVL.msg"
   "msg/DVLBeam.msg"
+  "msg/DVLimu.msg"
 #  DEPENDENCIES dvl_beam_interface
   DEPENDENCIES geometry_msgs 
   DEPENDENCIES std_msgs
