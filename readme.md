@@ -25,6 +25,13 @@ network:
             dhcp4: no
             addresses:
 ```
+
+
+# add new ros package 
+
+for python 
+ros2 pkg create --build-type ament_python <package_name>
+
 ## known issues
 
 - publisher only
