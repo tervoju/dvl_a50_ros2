@@ -3,4 +3,5 @@
 *.vc.db-wal
 log/
 install/
+build/
 
