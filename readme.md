@@ -1,6 +1,11 @@
-# DVL A50 ROS2
+# DVL A50 ROS2, CTD + other
 
 initial version
+
+## create another package
+
+cd ~/dev_ws/src
+ros2 pkg create --build-type ament_python <package_name>
 
 ## developed in
 
