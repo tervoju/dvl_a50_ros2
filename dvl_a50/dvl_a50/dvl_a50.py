@@ -156,7 +156,7 @@ def main(args=None):
 
 	dvl_publisher = dvl_a50_py() 
 
-	rclpy.spin(dvl_a50_py)
+	rclpy.spin(dvl_publisher)
 
 	dvl_publisher.destroy_node()
 	rclpy.shutdown()

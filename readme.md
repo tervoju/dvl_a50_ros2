@@ -37,6 +37,19 @@ network:
 for python 
 ros2 pkg create --build-type ament_python <package_name>
 
+
+build package
+`colcon build --packages-select <package_name>`
+
+package to be used
+`. install/setup.bash`
+
+run ros package
+`ros2 run <package_name> <package_name>`
+
+## build
+remove old build files (might impact build process and generate weird issues)
+
 ## known issues
 
 - publisher only
